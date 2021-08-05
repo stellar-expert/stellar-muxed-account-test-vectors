@@ -1,6 +1,6 @@
 {
   "name": "stellar-muxed-account-test-vectors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Executes on-chain all possible combinations of operations with muxed accounts permitted by CAP027 for UI testing purpose.",
   "main": "index.js",
   "repository": {
@@ -25,6 +25,9 @@
     "node": ">=7.6.0"
   },
   "scripts": {
+    "stellar-muxed-account-test-vectors": "node index.js"
+  },
+  "bin": {
     "stellar-muxed-account-test-vectors": "node index.js"
   }
 }

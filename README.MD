@@ -1,11 +1,11 @@
 # Test vectors for muxed account
 
-See [CAP-27](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0027.md) for reference.
+See [CAP-27](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0027.md) for the reference.
 
 Run
 
 ```shell
-npx github:stellar-expert/stellar-muxed-account-test-vectors
+npx https://github.com/stellar-expert/stellar-muxed-account-test-vectors
 ```
 
 ### Test vectors
