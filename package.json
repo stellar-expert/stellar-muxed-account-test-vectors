@@ -1,0 +1,30 @@
+{
+  "name": "stellar-muxed-account-test-vectors",
+  "version": "1.0.0",
+  "description": "Executes on-chain all possible combinations of operations with muxed accounts permitted by CAP027 for UI testing purpose.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stellar-expert/stellar-muxed-account-test-vectors.git"
+  },
+  "keywords": [
+    "stellar",
+    "muxed",
+    "test"
+  ],
+  "author": "orbitlens <orbit@stellar.expert>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stellar-expert/stellar-muxed-account-test-vectors/issues"
+  },
+  "homepage": "https://github.com/stellar-expert/stellar-muxed-account-test-vectors#readme",
+  "dependencies": {
+    "stellar-sdk": "^8.2.5"
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "scripts": {
+    "stellar-muxed-account-test-vectors": "node index.js"
+  }
+}
