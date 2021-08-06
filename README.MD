@@ -2,10 +2,12 @@
 
 See [CAP-27](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0027.md) for the reference.
 
-Run
+Create and submit a test transaction containing all test vectors:
 
 ```shell
-npx https://github.com/stellar-expert/stellar-muxed-account-test-vectors
+git clone https://github.com/stellar-expert/stellar-muxed-account-test-vectors
+cd stellar-muxed-account-test-vectors
+node index.js
 ```
 
 ### Test vectors
